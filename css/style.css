@@ -6,11 +6,13 @@ body {
   background-color: #f8f9fa;
 }
 
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 40px 20px;
 }
+
 
 h1, h2, h3 {
   margin-bottom: 10px;
@@ -22,17 +24,39 @@ h1, h2, h3 {
 }
 
 .links a {
+  display: inline-block;
+  padding: 12px 13px;            
+  border-radius: 100px;          
   margin-right: 15px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  color: #333;
+  background: #f2f2f2;          
+}
+
+.links a.github {
+  background: #111;
+  color: #fff;
+}
+
+.links a.linkedin {
+  background: #0a66c2;
+  color: #fff;
+}
+
+.links a.credly {
+  background: #ff6b00;
+  color: #fff;
 }
 
 .links a:hover {
-  text-decoration: underline;
+  opacity: 0.9;
 }
 
+
+
 section {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .cert-card {
