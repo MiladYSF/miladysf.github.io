@@ -3,7 +3,7 @@ body {
   margin: 0;
   line-height: 1.6;
   color: #1f1f1f;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 html {
@@ -58,7 +58,7 @@ h1, h2, h3 {
 
 
 .links {
-  background-color: #3d3d3d;
+  background-color: #130c50;
 
   width: 150px;             
   height: 100vh;             
@@ -88,7 +88,7 @@ h1, h2, h3 {
   display: block;           
   width: 100%;
 
-  color: #f2f2f2;
+  color: #ffffff;
   text-decoration: none;
   font-size: 16px;
 
@@ -120,12 +120,11 @@ h1, h2, h3 {
   min-width: 0;
 }
 
-/* SECTIONS */
+
 section {
   margin-bottom: 40px;
 }
 
-/* CERT CARDS */
 .cert-card {
   display: flex;
   gap: 20px;
